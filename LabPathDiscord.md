@@ -67,8 +67,32 @@ The second reason was because I had a couple people reaching out to me about scr
 
 That's it, really. From there it was just a question of "Why _not_?"
 
+### Other Questions (Pulled from [Ainil's Post](https://www.reddit.com/r/Lab_path/comments/e4qn7e/future_of_this_project/) with minor modifications)
+
+- How long it takes to make lab path?
+
+Around 15 min for levels 1-3 + 30 min for hard mode.
+
+- How do you make it?
+
+Im using premade template and ms paint. Color picker and bucket fill are my favorite tools.
+
+- Whats up with those funky map colors?
+
+I cooperated with colorblind people to make it readable for them, its still far from perfect tho.
+
+- Do you get anything out of this project?
+
+Sense of pride and accomplishment. I've been contacted about adding URL's and such to the path, but wanted to keep to the integrity standard that has been set.
+
+- Do you even read comments?
+
+Yes! I read every single one, thank you guys for kind words.
+
 ## Roles
 
 - Helpers(Guides?)
 - Mappers
 - Region (US/EU)
+- Scripters
+- Moderators

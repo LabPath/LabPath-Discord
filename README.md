@@ -1,1 +1,1 @@
-Just testing the github webhooks.
+This Github Repo is still getting started. I'm working on getting all of the information and documents I've used so far into here for anyone who can use it, and intend to use it at least as a starting point for the scripting and discord information.

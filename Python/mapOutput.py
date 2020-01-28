@@ -1,5 +1,7 @@
 import turtle
 import time
+import json
+
 t = turtle.Turtle()
 bFlag = "#C9A7A7"
 rFlag = "#F01B20"
@@ -22,6 +24,11 @@ start = "#FFFFFF"
 
 # Drawing the outside: LRLRLRRLLRRLLRRLLRRLRLRRRLRLRRLLRRLLRRLLRRLRLR
 
+# may need or want to have a variable for each spot. a1-d24, a-d being floors, 1-24 being location on that floor.
+#   better idea, use a nested dictionary. Can be printed in JSON, so perfect place to store the map key.
+#   To print it to JSON:
+#     app_json = json.dumps(mapKey, sort_keys=True)
+#   mapKey = { '1': { '1':'Start','24':'Boss'},'2': {'1':'Start','24':'Boss'},'3': {'1':'Start','24':'Boss'},'Hardmode': {'1':'Start','24':'Boss'}}
 
 def drawHex():
   for i in range(6):
@@ -42,7 +49,7 @@ def drawOutside():
       leftForward()
     elif directions[n] == "R":
       rightForward()
-
+# a1 = "start"
 # t.goto(x, y)  It moves the turtle(arrow) to the position x, y
 
 

@@ -1,0 +1,142 @@
+{
+    "version_1": {
+        "floor_1": {
+            "row_1": {
+                "left": "wagon",
+                "right": "brown flag"
+            },
+            "row_2": {
+                "left": "red flag",
+                "middle": "wagon",
+                "right": "brown flag"
+            },
+            "row_3": {
+                "left": "wagon",
+                "right": "red flag"
+            },
+            "row_4": {
+                "left": "red flag",
+                "middle": "brown flag",
+                "right": "brown flag"
+            },
+            "row_5": {
+                "left": "fountain",
+                "right": "brown flag"
+            },
+            "row_6": {
+                "left": "brown flag",
+                "middle": "red flag",
+                "right": "brown flag"
+            },
+            "row_7": {
+                "left": "red flag",
+                "right": "fountain"
+            },
+            "row_8": {
+                "left": "wagon",
+                "middle": "red flag",
+                "right": "brown flag"
+            },
+            "row_9": {
+                "left": "hero res",
+                "right": "fountain"
+            }
+        },
+        "floor_2": {},
+        "floor_3": {},
+        "floor_hard": {}
+    },
+    "version_2": {
+        "floor_1": [
+            {
+                "left": "wagon",
+                "right": "brown flag"
+            },
+            {
+                "left": "red flag",
+                "middle": "wagon",
+                "right": "brown flag"
+            },
+            {
+                "left": "wagon",
+                "right": "red flag"
+            },
+            {
+                "left": "red flag",
+                "middle": "brown flag",
+                "right": "brown flag"
+            },
+            {
+                "left": "fountain",
+                "right": "brown flag"
+            },
+            {
+                "left": "brown flag",
+                "middle": "red flag",
+                "right": "brown flag"
+            },
+            {
+                "left": "red flag",
+                "right": "fountain"
+            },
+            {
+                "left": "wagon",
+                "middle": "red flag",
+                "right": "brown flag"
+            },
+            {
+                "left": "hero res",
+                "right": "fountain"
+            }
+        ],
+        "floor_2": {},
+        "floor_3": {},
+        "floor_hard": {}
+    },
+    "version_3": [
+        [
+            {
+                "left": "wagon",
+                "right": "brown flag"
+            },
+            {
+                "left": "red flag",
+                "middle": "wagon",
+                "right": "brown flag"
+            },
+            {
+                "left": "wagon",
+                "right": "red flag"
+            },
+            {
+                "left": "red flag",
+                "middle": "brown flag",
+                "right": "brown flag"
+            },
+            {
+                "left": "fountain",
+                "right": "brown flag"
+            },
+            {
+                "left": "brown flag",
+                "middle": "red flag",
+                "right": "brown flag"
+            },
+            {
+                "left": "red flag",
+                "right": "fountain"
+            },
+            {
+                "left": "wagon",
+                "middle": "red flag",
+                "right": "brown flag"
+            },
+            {
+                "left": "hero res",
+                "right": "fountain"
+            }
+        ],
+        [],
+        []
+    ]
+}

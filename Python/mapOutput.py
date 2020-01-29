@@ -15,7 +15,7 @@ start = "#FFFFFF"
 #Trying to be able to draw the map with Python. Will also be recording some information on the specifics of the picture for reference.
 # As far as I can tell, this should function at the very least on Python 3.6+. Written in Python 3.8.1
 
-# each side of the hexagon should be about 32 pixels. Makes the Height/width 64px
+# each side of the hexagon should be about 32 pixels. Makes the Height 64px and width of about 55.43 (side^2+width^2=height^2)
 # 24 hexagons total in horizontal rows in this pattern: 1, 2, 3, 2, 3, 2, 3, 2, 3, 2, 1
 # original has the start hex of each floor 204px away. probably going to make it either 192 or 224 to standardize on multiples of 32
 # starting angle needs to be either 90 or 270 to properly orient the drawn hexagon
@@ -29,17 +29,29 @@ start = "#FFFFFF"
 #   To print it to JSON:
 #     app_json = json.dumps(mapKey, sort_keys=True)
 #   mapKey = { '1': { '1':'Start','24':'Boss'},'2': {'1':'Start','24':'Boss'},'3': {'1':'Start','24':'Boss'},'Hardmode': {'1':'Start','24':'Boss'}}
+# Mapping Origins of Hexagons:
+#   Hexagons are numbered bottom-to-top, left-to-right. Origin is bottom point of each hexagon
+#   1: (0,0)
+#   2: (-27.71,48.00)
+#   3: (27.71,48.00)
+#   4: (-55.43,96.00)
+#   5: (0.00,96.00)
+
+# 1,5,10,15,20,24 are all going to have a 0.00 x-value. Y-value increases by 96 each step, with 24 being (0.00,480)
 
 def drawHex():
   for i in range(6):
     t.right(60)  # Turning the turtle by 60 degree
     t.forward(32)  # Each side is 32px long
+
 def leftForward():
   t.left(60)
   t.forward(32)
+
 def rightForward():
   t.right(60)
   t.forward(32)
+
 def drawOutside():
   directions = "LRLRLRRLLRRLLRRLLRRLRLRRRLRLRRLLRRLLRRLLRRLRLR"
   dLen = len(directions)
@@ -49,6 +61,7 @@ def drawOutside():
       leftForward()
     elif directions[n] == "R":
       rightForward()
+
 # a1 = "start"
 # t.goto(x, y)  It moves the turtle(arrow) to the position x, y
 

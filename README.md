@@ -6,11 +6,11 @@ This Github Repo is still getting started. I'm working on getting all of the inf
 
 The colors have been chosen purposefully, to allow everyone to be able to read the map with ease, including those who are colorblind. These are the hex values of the colors used:
 
-- Boss: #FEC90A
-- Wagon (Dark): #252E87
-- Fountain: #9AD7EB
-- Shop: #B6E41A
-- Red Flag: #F01B20
-- Brown Flag: #C9A7A7
-- Hero Res: #FE3DBB
-- Wrizz Miniboss: #000000
+- Boss: #fec80a
+- Wrizz: #000000
+- Red Flag: #f01b20
+- Brown Flag: #c9a7a7
+- Roamer: #654321
+- Wagon: #212e8e
+- Fountain: #99d7ea
+- Hero Res: #fe3cbe

@@ -1,7 +1,7 @@
 from PIL import ImageGrab, Image # Pillow
 import win32gui # pywin32
 import sys
-# import pytesseract # pytesseract
+import pytesseract # pytesseract
 import argparse
 import cv2 # opencv-python
 import os
@@ -109,6 +109,7 @@ for flr,pct in pctFloor.items():
   if pctChk["FloorCheck"] == pct:
     #return flr
     floor = flr
+
 color_index=1
 for color, count in color_count.items():
   try:
@@ -117,6 +118,7 @@ for color, count in color_count.items():
     color_name = color
   print('{}.) {}: {}'.format(color_index, color_name, count))
   color_index += 1
+
 for color, count in color_count.items():
   if count <= 75:
     continue
@@ -141,7 +143,7 @@ print('\t{} pixels'.format(sum(color_count[color] for color in color_count)))
 # print(testHex)
 path = "C:\\Users\\joejo\\Downloads\\test.png"
 img.save(path)
-
+print(pytesseract.image_to_string(img))
 # text = pytesseract.image_to_string(Image.open(path))
 # os.remove(path)
 # print(text)

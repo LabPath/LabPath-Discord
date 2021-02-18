@@ -1,2 +1,4 @@
+/Python/.venv*
 /Python/venv
+/Python/lib*
 /Notes*
